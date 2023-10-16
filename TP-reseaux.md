@@ -80,6 +80,56 @@ Ok c'est la partie tendue. Prenez un câble. Branchez-le des deux côtés. Bap.
 
 ### 🌞 Modifiez l'IP des deux machines pour qu'elles soient dans le même réseau
 
+### 🌞 Vérifier que les deux machines se joignent
+```
+ping 10.10.10.1
+```
+PS C:\Users\champ> ping 10.10.10.1
+
+Envoi d’une requête 'Ping'  10.10.10.1 avec 32 octets de données :
+Réponse de 10.10.10.1 : octets=32 temps=1 ms TTL=64
+
+Réponse de 10.10.10.1 : octets=32 temps<1ms TTL=64
+
+Réponse de 10.10.10.1 : octets=32 temps<1ms TTL=64
+
+Réponse de 10.10.10.1 : octets=32 temps<1ms TTL=64
+
+
+Statistiques Ping pour 10.10.10.1:
+
+Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
+
+Durée approximative des boucles en millisecondes :
+
+Minimum = 0ms, Maximum = 1ms, Moyenne = 0ms
+
+### 🌞 Déterminer l'adresse MAC de votre correspondant
+```
+arp -a
+```
+00-d8-61-8a-6e-78
+
+## 4. Petit chat privé
+
+### 🌞 sur le PC client
+```
+.\nc.exe 10.10.10.1 8888
+```
+### 🌞 Visualiser la connexion en cours
+```
+netstat -a -n -b
+
+Connexions actives
+```
+## 5. Firewall
+
+### 🌞 Activez et configurez votre firewall
+
+ne marche pas
+
+## 6. Utilisation d'un des deux comme gateway
+
 # III. Manipulations d'autres outils/protocoles côté client
 
 ## 1. DHCP
