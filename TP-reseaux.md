@@ -109,7 +109,7 @@ Nom :    google.com
 
 Addresses:  2a00:1450:4007:818::200e
 
-          142.250.179.110
+ 142.250.179.110
 ```
 nslookup ynov.com 10.33.10.2
 ```
@@ -119,3 +119,36 @@ DNS request timed out.
 Serveur :   UnKnown
 
 Address:  10.33.10.2
+```
+nslookup 231.34.113.12
+```
+DNS request timed out.
+    timeout was 2 seconds.
+
+Serveur :   UnKnown
+
+Address:  10.33.10.2
+
+DNS request timed out.
+    timeout was 2 seconds.
+
+*** Le délai de la requête sur UnKnown est dépassé.
+```
+nslookup 78.34.2.17
+```
+
+DNS request timed out.
+    timeout was 2 seconds.
+
+Serveur :   UnKnown
+
+Address:  10.33.10.2
+
+DNS request timed out.
+    timeout was 2 seconds.
+
+*** Le délai de la requête sur UnKnown est dépassé.
+
+# IV. Wireshark 
+
+### 🌞 Utilisez le pour observer les trames qui circulent entre vos deux carte Ethernet. Mettez en évidence :
