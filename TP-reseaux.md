@@ -76,6 +76,10 @@ firewalls désactivés sur les deux PCs
 
 Ok c'est la partie tendue. Prenez un câble. Branchez-le des deux côtés. Bap.
 
+## 3. Modification d'adresse IP
+
+### 🌞 Modifiez l'IP des deux machines pour qu'elles soient dans le même réseau
+
 # III. Manipulations d'autres outils/protocoles côté client
 
 ## 1. DHCP
