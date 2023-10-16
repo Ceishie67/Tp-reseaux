@@ -75,3 +75,47 @@ firewalls désactivés sur les deux PCs
 ## 2. Câblage
 
 Ok c'est la partie tendue. Prenez un câble. Branchez-le des deux côtés. Bap.
+
+# III. Manipulations d'autres outils/protocoles côté client
+
+## 1. DHCP
+
+### 🌞Exploration du DHCP, depuis votre PC
+```
+PS C:\Users\champ> ipconfig /all
+```
+serveur DHCP :  10.33.51.254
+
+## 2. DNS
+
+### 🌞** Trouver l'adresse IP du serveur DNS que connaît votre ordinateur**
+```
+PS C:\Users\champ> ipconfig /all
+```
+serveur DNS : 10.33.10.2
+
+### 🌞 Utiliser, en ligne de commande l'outil nslookup (Windows, MacOS) pour faire des requêtes DNS à la main
+
+```
+nslookup google.com 8.8.8.8
+```
+Serveur :   dns.google
+
+Address:  8.8.8.8
+
+Réponse ne faisant pas autorité :
+
+Nom :    google.com
+
+Addresses:  2a00:1450:4007:818::200e
+
+          142.250.179.110
+```
+nslookup ynov.com 10.33.10.2
+```
+DNS request timed out.
+    timeout was 2 seconds.
+
+Serveur :   UnKnown
+
+Address:  10.33.10.2
