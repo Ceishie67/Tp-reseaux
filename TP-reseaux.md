@@ -129,6 +129,38 @@ Connexions actives
 ne marche pas
 
 ## 6. Utilisation d'un des deux comme gateway
+```
+PS C:\Users\champ> ping 1.1.1.1
+Envoi d’une requête 'Ping'  1.1.1.1 avec 32 octets de données :
+Réponse de 1.1.1.1 : octets=32 temps=37 ms TTL=56
+Réponse de 1.1.1.1 : octets=32 temps=11 ms TTL=56
+Réponse de 1.1.1.1 : octets=32 temps=13 ms TTL=56
+Réponse de 1.1.1.1 : octets=32 temps=11 ms TTL=56
+
+Statistiques Ping pour 1.1.1.1:
+    Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
+Durée approximative des boucles en millisecondes :
+    Minimum = 11ms, Maximum = 37ms, Moyenne = 18ms
+```
+### 🌞 Prouver que la connexion Internet passe bien par l'autre PC
+```
+PS C:\Users\champ> tracert 1.1.1.1
+Détermination de l’itinéraire vers one.one.one.one [1.1.1.1]
+avec un maximum de 30 sauts :
+
+  1    <1 ms    <1 ms    <1 ms  MakOS [10.42.0.1]
+  2     4 ms     2 ms     8 ms  _gateway [10.33.51.254]
+  3     8 ms     3 ms     2 ms  237.252.159.77.rev.sfr.net [77.159.252.237]
+  4     3 ms     3 ms     3 ms  108.97.30.212.rev.sfr.net [212.30.97.108]
+  5     5 ms     4 ms     7 ms  213.212.192.77.rev.sfr.net [77.192.212.213]
+  6    12 ms    12 ms    13 ms  12.148.6.194.rev.sfr.net [194.6.148.12]
+  7    15 ms    11 ms    11 ms  12.148.6.194.rev.sfr.net [194.6.148.12]
+  8    11 ms    13 ms    11 ms  141.101.67.48
+  9    11 ms    11 ms    13 ms  172.71.124.4
+ 10    14 ms    12 ms    13 ms  one.one.one.one [1.1.1.1]
+
+Itinéraire déterminé.
+```
 
 # III. Manipulations d'autres outils/protocoles côté client
 
