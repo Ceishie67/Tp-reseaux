@@ -128,3 +128,8 @@ Interface : 192.168.80.1 --- 0x17
   239.255.255.251       01-00-5e-7f-ff-fb     statique
   
   255.255.255.255       ff-ff-ff-ff-ff-ff     statique
+
+Après la suppression :
+
+intreface : 192.168.1.20 --- 0x7
+    adresse internet    adresse
