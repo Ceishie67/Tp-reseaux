@@ -133,7 +133,11 @@ Après la suppression :
 
 Interface : 192.168.1.20 --- 0x7
   Adresse Internet      Adresse physique      Type
+  
   192.168.1.1           7c-c1-77-5e-59-f0     dynamique
+  
   192.168.1.33          cc-d3-c1-16-48-23     dynamique
+  
   192.168.1.45          2c-3b-70-6b-d7-f1     dynamique
+  
   224.0.0.22            01-00-5e-00-00-16     statique
