@@ -141,3 +141,16 @@ Interface : 192.168.1.20 --- 0x7
   192.168.1.45          2c-3b-70-6b-d7-f1     dynamique
   
   224.0.0.22            01-00-5e-00-00-16     statique
+
+### 🌞 Wireshark it
+
+[capture Wireshark](./TP-réseaux2capture2.pcapng)
+
+# III. DHCP
+
+### 🌞 Wireshark it
+
+[capture Wireshark](./TP-réseaux2capture3.pcapng)
+
+
+
