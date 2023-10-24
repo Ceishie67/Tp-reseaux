@@ -53,3 +53,21 @@ ping 10.3.1.12
 74 packets transmitted, 74 received, 0% packet loss, time 74340ms
 rtt min/avg/max/mdev = 0.502/0.808/2.489/0.240 ms
 ```
+Table ARP
+
+marcel
+```
+ip neigh show
+10.3.1.1 dev enp0s3 lladdr 0a:00:27:00:00:38 REACHABLE
+10.3.1.11 dev enp0s3 lladdr 08:00:27:c5:00:9b STALE
+```
+john
+```
+ip neigh show
+10.3.1.1 dev enp0s3 lladdr 0a:00:27:00:00:38 REACHABLE
+10.3.1.12 dev enp0s3 lladdr 08:00:27:f3:91:7e STALE
+```
+address MAC marcel : 08:00:27:f3:91:7e
+
+address MAC john : 08:00:27:c5:00:9b
+
