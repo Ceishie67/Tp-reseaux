@@ -71,3 +71,6 @@ address MAC marcel : 08:00:27:f3:91:7e
 
 address MAC john : 08:00:27:c5:00:9b
 
+## 2. Analyse de trames
+
+[capture Wireshark](./Tp-réseaux3.pcap)
