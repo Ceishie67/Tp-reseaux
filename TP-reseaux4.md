@@ -21,7 +21,7 @@ Bail expirant le samedi 28 octobre 2023 09:16:36
 
 ### 🌞 Analyser la capture Wireshark
 
-parmis les 4 trames celle qui contient les informations proposées aux client est aucune car pour des raison que je ne conprends pas dans ma capture wireshark je n'ai que la request et la ack mais ce ne sont pas les bonnes la bonne raiponse serais la DHCP offer qui n'est pas dans la capture wireshark
+parmis les 4 trames celle qui contient les informations proposées aux client est aucune car pour des raison que je ne conprends pas dans ma capture wireshark je n'ai que la request et la ack mais ce ne sont pas les bonnes la bonne réponse serais la DHCP offer qui n'est pas dans la capture wireshark
 (j'ai essayer plusieur fois de relancer le procesus mais toujour la même chose j'obtiens toujours les même résultat en boucle)
 
 ## II. Serveur DHCP
