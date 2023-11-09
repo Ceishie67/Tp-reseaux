@@ -33,3 +33,5 @@ discord :  IP : 85.195.105.222 port serveur : 55561  port local : 443  TCP
 youtube  : IP : 162.247.243.29 port serveur : 443 port local : 57403  TCP
 
 Instant Gaming : IP : 54.174.212.222 port serveur : 443 port local : 55540 UDP/TCP
+
+### 🌞 Demandez l'avis à votre OS
