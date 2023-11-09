@@ -23,4 +23,9 @@
 
 Toutes les commandes pour réaliser ces opérations sont dans le mémo Rocky. Aucune de ces étapes ne doit figurer dan le rendu, c'est juste la mise en place de votre environnement de travail.
 ## I. First steps
+
 ### 🌞 Déterminez, pour ces 5 applications, si c'est du TCP ou de l'UDP
+
+titanfall 2 : IP : 10.33.71.246 port serveur : 37315  port local :
+discord :  IP : 10.33.71.246 port serveur : 443 port local :
+youtube  : IP : 162.247.243.29 port serveur : 37315 port local :
