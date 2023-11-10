@@ -170,3 +170,9 @@ TCP    [::1]:57549            [::1]:57592            ESTABLISHED
 TCP    [::1]:57551            [::1]:57548            ESTABLISHED
 
 TCP    [::1]:57592            [::1]:57549            ESTABLISHED
+
+# II. Setup Virtuel
+
+## 1. SSH
+
+### 🌞 Examinez le trafic dans Wireshark
