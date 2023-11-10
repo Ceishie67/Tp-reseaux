@@ -176,3 +176,13 @@ TCP    [::1]:57592            [::1]:57549            ESTABLISHED
 ## 1. SSH
 
 ### 🌞 Examinez le trafic dans Wireshark
+
+[capture Wireshark](./TP-réseaux5.capture1.pcapng)
+
+[capture Wireshark](./TP-réseaux5.capture2.pcapng)
+
+[capture Wireshark](./TP-réseaux5.capture3.pcapng)
+
+[capture Wireshark](./TP-réseaux5.capture4.pcapng)
+
+[capture Wireshark](./TP-réseaux5.capture5.pcapng)
