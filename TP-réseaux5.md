@@ -193,3 +193,26 @@ TCP    10.5.1.1:51482         10.5.1.11:22           ESTABLISHED
 [ssh.exe]
 
 tcp ESTAB 0 0 10.5.1.11 : 22  10.5.1.1 :52154 timer : (k
+
+## 2. Routage
+
+### 🌞 Prouvez que
+
+[nath@node1 ~]$ ping 1.1.1.1
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=55 time=22.6 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=55 time=23.5 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=55 time=19.1 ms
+64 bytes from 1.1.1.1: icmp_seq=4 ttl=55 time=19.3 ms
+64 bytes from 1.1.1.1: icmp_seq=5 ttl=55 time=19.4 ms
+64 bytes from 1.1.1.1: icmp_seq=6 ttl=55 time=25.6 ms
+64 bytes from 1.1.1.1: icmp_seq=7 ttl=55 time=19.2 ms
+64 bytes from 1.1.1.1: icmp_seq=8 ttl=55 time=24.2 ms
+64 bytes from 1.1.1.1: icmp_seq=9 ttl=55 time=18.9 ms
+64 bytes from 1.1.1.1: icmp_seq=10 ttl=55 time=39.7 ms
+64 bytes from 1.1.1.1: icmp_seq=11 ttl=55 time=18.9 ms
+64 bytes from 1.1.1.1: icmp_seq=12 ttl=55 time=21.6 ms
+sudo firewall-cmd --reload^C
+--- 1.1.1.1 ping statistics ---
+12 packets transmitted, 12 received, 0% packet loss, time 11028ms
+rtt min/avg/max/mdev = 18.881/22.661/39.710/5.615 ms
