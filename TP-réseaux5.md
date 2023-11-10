@@ -190,4 +190,6 @@ TCP    [::1]:57592            [::1]:57549            ESTABLISHED
 ### 🌞 Demandez aux OS
 
 TCP    10.5.1.1:51482         10.5.1.11:22           ESTABLISHED
- [ssh.exe]
+[ssh.exe]
+
+tcp ESTAB 0 0 10.5.1.11 : 22  10.5.1.1 :52154 timer : (k
