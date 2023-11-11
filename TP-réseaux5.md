@@ -216,3 +216,5 @@ sudo firewall-cmd --reload^C
 --- 1.1.1.1 ping statistics ---
 12 packets transmitted, 12 received, 0% packet loss, time 11028ms
 rtt min/avg/max/mdev = 18.881/22.661/39.710/5.615 ms
+
+## 3. Serveur Web
