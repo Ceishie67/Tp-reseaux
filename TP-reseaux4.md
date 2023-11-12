@@ -29,3 +29,8 @@ parmis les 4 trames celle qui contient les informations proposées aux client es
 ## 1. Topologie
 
 ## 2. Tableau d'adressage
+
+## 3. Setup topologie
+
+### ➜ Mettez en place la topologie
+
